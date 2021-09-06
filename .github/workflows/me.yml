@@ -24,7 +24,7 @@ jobs:
             - name: 📂 Sync files
               uses: SamKirkland/FTP-Deploy-Action@4.1.0
               with:
-                  server: sidehustle.ng
+                  server: business91.web-hosting.com
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_SECRET }}
                   server-dir: /test.sidehustle.ng/
