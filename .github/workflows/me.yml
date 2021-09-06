@@ -28,5 +28,6 @@ jobs:
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_SECRET }}
                   server-dir: /test.sidehustle.ng/
+                  protocol: ftps
                   port: 21
                   
